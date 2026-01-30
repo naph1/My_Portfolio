@@ -1,0 +1,14 @@
+[
+  {
+    "title": "Full-Stack Portfolio Platform",
+    "description": "React + Flask portfolio with modular architecture and API-driven content.",
+    "stack": ["React", "Flask", "Tailwind"],
+    "type": "Web Development"
+  },
+  {
+    "title": "Secure Linux Lab",
+    "description": "Linux system hardening and auditing lab.",
+    "stack": ["Linux", "Ubuntu"],
+    "type": "Cybersecurity"
+  }
+]

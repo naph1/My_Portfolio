@@ -1,0 +1,10 @@
+[
+  {
+    "area": "Linux & Ubuntu Security",
+    "details": "System hardening, SSH security, firewall configuration, and log auditing."
+  },
+  {
+    "area": "Security Onion Monitoring",
+    "details": "IDS alerts, traffic analysis, and threat detection."
+  }
+]

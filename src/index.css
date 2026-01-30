@@ -1,0 +1,52 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ===============================
+   DESIGN TOKENS — LIGHT MODE
+   =============================== */
+:root {
+  --background: #f8f2e8;          /* cream */
+  --surface: #ffffff;
+  --surface-muted: #f1ece3;
+
+  --text-primary: #1f2937;
+  --text-secondary: #4b5563;
+
+  --accent: #5c460b;              /* deep blue */
+  --border: #d1d5db;
+}
+
+/* ===============================
+   DESIGN TOKENS — DARK MODE
+   =============================== */
+.dark {
+  --background: #0b1220;          /* navy */
+  --surface: #111827;
+  --surface-muted: #1f2937;
+
+  --text-primary: #f9fafb;
+  --text-secondary: #9ca3af;
+
+  --accent: #3b82f6;
+  --border: #374151;
+}
+
+:root {
+  /* Timeline / bullet accents */
+  --timeline-dot: #6b4f3f; /* warm brown, subtle in light mode */
+}
+
+.dark {
+  --timeline-dot: #4f8cff; /* muted steel blue for dark mode */
+}
+
+
+/* ===============================
+   GLOBAL BASE STYLES
+   =============================== */
+body {
+  background-color: var(--background);
+  color: var(--text-primary);
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
